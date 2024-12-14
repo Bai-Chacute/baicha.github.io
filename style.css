@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header  {
+    background-color: #061b1d;
+    width: 100%;
+    height: 80px;
+    position: fixed;
+}
+header h1 {
+    color:rgb(255, 255, 255);
+    position: absolute;
+    left: 100px;
+    top: 0;
+    line-height: 80px;
+}
+header ul {
+    position: absolute;
+    right:5vw;
+    top: 0;
+    line-height: 80px;
+}
+header li {
+    display: inline;
+    margin-left: 4vw;
+    font-size: 18px;
+}
+header a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+header a:hover {
+    text-decoration: underline;
+}
+
+
+body{
+    background-color: rgb(255, 196, 153)
+}
+.jiesh{
+    background-color: rgb(255, 196, 153);
+    color: rgb(248, 102, 44);
+    height: 50vw;
+    background-image: url("photo/beijing.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.jiesh h2{
+    margin-top: 10vw;
+    font-size: 4vw;
+    font-weight: 100;
+}.jiesh p{
+    margin: 25px;
+    font-size: 20px;
+}
+.hou {
+    color: rgb(112, 66, 66);
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+}
+.zuihou img{
+    width: 50%;
+    height: 500px;
+}
+.zuihou{
+    display: flex;
+}
+.zi {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+blockquote {
+    font-size:40px ;
+    color: rgb(31, 136, 101);
+}
+footer{
+    background-color: rgb(32, 32, 32);
+    color: rgb(255, 255, 255);
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+    line-height: 1.8em;
+}
